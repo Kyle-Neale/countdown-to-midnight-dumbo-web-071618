@@ -2,7 +2,7 @@
 
 def countdown(n)
   counter = n
-  sleep(1)
+  sleep 1 
   while counter > 0 do
     puts "#{counter} SECOND(S)!"
     counter -= 1
